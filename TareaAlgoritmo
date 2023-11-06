@@ -1258,29 +1258,29 @@ Algoritmo Proyecto
 		"1":
 		    mientras opc1 <> '00' hacer	
 			 escribir "Operaciones"
-			 escribir "1)Ejercicio1"
-			 escribir "2)Ejercicio2"
-			 escribir "4)Ejercicio3"
-			 escribir "5)Ejercicio4"
-			 escribir "6)Ejercicio5"
-			 escribir "7)Ejercicio6"
-			 escribir "8)Ejercicio7"
-			 escribir "9)Ejercicio8"
-			 escribir "10)Ejercicio9"
-			 escribir "11)Ejercicio10"
-			 escribir "12)Ejercicio11"
-			 escribir "13)Ejercicio12"
-			 escribir "14)Ejercicio13"
-			 escribir "15)Ejercicio14"
-			 escribir "16)Ejercicio15"
-			 escribir "17)Ejercicio16"
-			 escribir "18Ejercicio17"
-			 escribir "19)Ejercicio18"
-			 escribir "20)Ejercicio19"
-			 escribir "21)Ejercicio10"
-			 escribir "22)Ejercicio21"
+			 escribir "1) Determinar cuánto se debe pagar por cantidad de colas"
+			 escribir "2) Vinicultores"
+			 escribir "3) Obtener el residuo sin MOD"
+			 escribir "4) Consultorio Dr Paez"
+			 escribir "5) Determinar si el primer número es mitad del segundo número y si el tercero es divisor del cuarto"
+			 escribir "6) Banco XYZ"
+			 escribir "7) Determinar si el primer número es divisor del tercero y si el segundo es el doble del cuarto"
+			 escribir "8)Límite de crédito de tarjeta"
+			 escribir "9) Mostrar si un número es negativo ,par, impar o múltiplo de 7"
+			 escribir "10)Asociación de Vinicultores"
+			 escribir "11) Mostrar si un número es menor que 10 par o impar divisible para 5"
+			 escribir "12) Fábrica El Cometa"
+			 escribir "13) Mostrar dígitos de un numero"
+			 escribir "14) Determinar si un número es capicúa"
+			 escribir "15) Divisores de un numero"
+			 escribir "16) Suma de divisores de un numero"
+			 escribir "17) Cantidad de divisores de un numero"
+			 escribir "18) Indicar si un número es perfecto"
+			 escribir "19) Determinar si un número es primo"
+			 escribir "20) Determinar si son números primos gemelos"
+			 escribir "21) Determinar si son números primos amigos"
 			 escribir "00)Salir"
-			 Escribir "       Elija opció[1...11,]" Sin Saltar
+			 Escribir "       Elija opció[1...21,]" Sin Saltar
 			 leer opc1
 			 segun opc1
 				 "1": 
@@ -1377,21 +1377,21 @@ Algoritmo Proyecto
 		"2":
 			mientras opc1 <> '00' hacer	
 				escribir "Cadenas"
-				escribir "1)Ejercicio22"
-				escribir "2)Ejercicio24"
-				escribir "3)Ejercicio26"
-				escribir "3)Ejercicio28"
-				Escribir "4)Ejercicio32"
-				Escribir "5)Ejercicio34"
-				Escribir "6)Ejercicio39"
-				Escribir "7)Ejercicio40"
-				Escribir "8)Ejercicio41"
-				Escribir "10)Ejercicio42"
-				Escribir "11)Ejercicio43"
-				Escribir "12)Ejercicio44"
-				Escribir "13)Ejercicio45"
+				escribir "1)Presentar secuencias de números"
+				escribir "2) Presentar secuencias de números"
+				escribir "3) Secuencias de números hasta que se ingresa uno negativo"
+				escribir "4) Secuencias de números hasta que se ingresé uno par"
+				Escribir "5) Determinar cuántas ,;:. hay en una cadena"
+				Escribir "6) Determinar cuántas vocales, consonantes y dígitos hay"
+				Escribir "7) Indicar cuántas palabras hay en una frase"
+				Escribir "8) Presentar la suma de los dígitos de una cédula"
+				Escribir "9)Indicar si una palabra es polindroma"
+				Escribir "10) Presentar la posición de un carácter en una cadena"
+				Escribir "11) Secuencias de caracteres  hasta que se ingrese un punto"
+			
+				Escribir "12) Indicar la frase de mayor longitud"
 				escribir "00)Salir"
-				Escribir "       Elija opció[22...32,]" Sin Saltar
+				Escribir "       Elija opció[1...12,]" Sin Saltar
 				leer opc1
 				segun opc1
 					"1": 
@@ -1413,39 +1413,35 @@ Algoritmo Proyecto
 					"5":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 5 de cadenas"
-						ejercicio32
+						ejercicio39
 					"6":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 6 de cadenas"
-						ejercicio34
+						ejercicio40
 					"7":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 7 de cadenas"
-						ejercicio39
+						ejercicio41
 					"8":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 8 de cadenas"
-						ejercicio40
+						ejercicio42
 					"9":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 9 de cadenas"
-						ejercicio41
+						ejercicio43
 					"10":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 10 de cadenas"
-						ejercicio42
+						ejercicio44
 					"11":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 11 de cadenas"
-						ejercicio43
+						ejercicio32
 					"12":
 						Limpiar Pantalla
 						Escribir "Este es el ejercicio 12 de cadenas"
-						ejercicio44
-					"13":
-						Limpiar Pantalla
-						Escribir "Este es el ejercicio 13 de cadenas"
-						ejercicio45
+         ejercicio38
 					"00": 
 						Limpiar Pantalla
 						Escribir "Gracias por usar nuestro sistema"
@@ -1454,20 +1450,16 @@ Algoritmo Proyecto
 		    FinMientras
 		"3":mientras opc1 <> '00' hacer	
 			escribir "Arreglos"
-			escribir "1)Ejercicio23"
-			escribir "2)Ejercicio25"
-			escribir "3)Ejercicio27"
-			escribir "4)Ejercicio29"
-			escribir "5)Ejercicio30"
-			escribir "6)Ejercicio31"
-			escribir "7)Ejercicio32"
-			escribir "8)Ejercicio33"
-			escribir "9)Ejercicio35"
-			escribir "10)Ejercicio36"
-			escribir "11)Ejercicio37"
-			escribir "12)Ejercicio38"
+			escribir "1) Promedio de números pares e impares"
+			escribir "2) Arreglos con números positivos y negativos"
+			escribir "3) Leer números hasta que se ingresé un cero"
+			escribir "4) Leer números hasta que se ingresé uno negativo"
+			escribir "5)Números mayores a 5"
+			escribir "6)Edades de alumnos"
+			escribir "7)Dar dos números i determinar los números impares comprendidos"
+			escribir "8) Sueldo de empleados Unemi"
 			escribir "00)Salir"
-			Escribir "       Elija opció[23...38,]" Sin Saltar
+			Escribir "       Elija opció[1...8,]" Sin Saltar
 			leer opc1
 			segun opc1
 				"1": 
@@ -1489,35 +1481,19 @@ Algoritmo Proyecto
 				"5":
 					Limpiar Pantalla
 					Escribir "Este es el ejercicio 5 de arreglos"
-					ejercicio30
+					ejercicio34
 				"6":
 					Limpiar Pantalla
 					Escribir "Este es el ejercicio 6 de arreglos"
-					ejercicio31
+					ejercicio35
 				"7":
 					Limpiar Pantalla
 					Escribir "Este es el ejercicio 7 de arreglos"
-					ejercicio32
+					ejercicio36
 				"8":
 					Limpiar Pantalla
 					Escribir "Este es el ejercicio 8 de arreglos"
-					ejercicio33
-				"9":
-					Limpiar Pantalla
-					Escribir "Este es el ejercicio 9 de arreglos"
-					ejercicio35
-			    "10":
-					Limpiar Pantalla
-					Escribir "Este es el ejercicio 10 de arreglos"
-					ejercicio36
-				"11":
-					Limpiar Pantalla
-					Escribir "Este es el ejercicio 11 de arreglos"
 					ejercicio37
-				"12":
-					Limpiar Pantalla
-					Escribir "Este es el ejercicio 12 de arreglos"
-					ejercicio38
 				"00": 
 					Limpiar Pantalla
 					Escribir "Gracias por usar nuestro sistema"
